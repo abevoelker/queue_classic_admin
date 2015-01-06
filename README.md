@@ -32,8 +32,9 @@ Mount in your rails app config/routes.rb file
 Add the following asset dependencies to your Gemfile
 
 ```ruby
-gem "twitter-bootstrap-rails"
-gem "jquery-rails"
+gem 'jquery-rails'
+gem 'bootstrap-sass', '~> 3.3.1'
+gem 'sass-rails',     '>= 3.2'
 ```
 
 # Configuration
